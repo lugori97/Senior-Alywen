@@ -7,6 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ServiciosComponent } from './servicios/servicios.component';
 
 const routes: Routes = [
+  {path: '', component: PrincipalComponent },
   {path: 'Principal', component: PrincipalComponent },
   {path: 'NC', component: NuestrosCuidadosComponent },
   {path: 'Servicios', component: ServiciosComponent }
