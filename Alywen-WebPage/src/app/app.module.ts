@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NuestrosCuidadosComponent } from './nuestros-cuidados/nuestros-cuidados.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NuestrosCuidadosComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    ServiciosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {path: 'Principal', component: AppComponent },
+      {path: 'Principal', component: PrincipalComponent },
       {path: 'NC', component: NuestrosCuidadosComponent }
     ]),
   ],
