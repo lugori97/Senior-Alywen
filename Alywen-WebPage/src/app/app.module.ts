@@ -6,18 +6,21 @@ import { AppComponent } from './app.component';
 import { NuestrosCuidadosComponent } from './nuestros-cuidados/nuestros-cuidados.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { ActividadesComponent } from './actividades/actividades.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NuestrosCuidadosComponent,
     PrincipalComponent,
+    ActividadesComponent,
     ServiciosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
+      {path: 'actividades', component: ActividadesComponent},
       {path: 'Principal', component: PrincipalComponent },
       {path: 'NC', component: NuestrosCuidadosComponent }
     ]),
