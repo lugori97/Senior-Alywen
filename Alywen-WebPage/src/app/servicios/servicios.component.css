@@ -1,0 +1,11 @@
+.navbar .navbar-nav .nav-link {
+  padding: 35px 15px;
+  color:#EAA636;
+  outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(#FDF5EB);
+}
+
