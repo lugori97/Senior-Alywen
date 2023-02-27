@@ -17,10 +17,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot([
-      {path: 'Principal', component: PrincipalComponent },
-      {path: 'NC', component: NuestrosCuidadosComponent }
-    ]),
+    RouterModule.forRoot([ //buscar que hace esta wea
+        ]),
   ],
   providers: [],
   bootstrap: [AppComponent,NuestrosCuidadosComponent]

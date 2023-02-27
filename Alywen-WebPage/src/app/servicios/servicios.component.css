@@ -4,8 +4,6 @@
   outline: none;
 }
 
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-  color: var(#FDF5EB);
+.navbar .navbar-nav .navbar-dark{
+  background: var(--dark);
 }
-
