@@ -8,4 +8,25 @@
 .navbar .navbar-nav .nav-link.active {
   color: var(#FDF5EB);
 }
+@media (min-width: 768px){.contenedor{max-width:720px}}
+@media (min-width: 992px){.contenedor{max-width:720px}}
+@media (min-width: 1200px){.contenedor{max-width:992px}}
+.col-lg-3, .col-md-6{
+  all: revert;
+  margin:0px auto;
+}
+/*
+@media (min-width: 576px){.container,.container-sm{max-width:540px}}
+@media (min-width: 768px){.container,.container-sm,.container-md{max-width:720px}}
+@media (min-width: 992px){.container,.container-sm,.container-md,.container-lg{max-width:960px}}
+@media (min-width: 1200px){.container,.container-sm,.container-md,.container-lg,.container-xl{max-width:1140px}}
+@media (min-width: 1400px){.container,.container-sm,.container-md,.container-lg,.container-xl,.container-xxl{max-width:1320px}}
+ */
+ .contenedor{
+  width:100%;
+  padding-right:var(--bs-gutter-x, .75rem);
+  padding-left:var(--bs-gutter-x, .75rem);
+  margin-right:auto;
+  margin-left:auto
+}
 
